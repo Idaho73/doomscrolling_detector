@@ -87,8 +87,8 @@ The detector uses **MediaPipe Face Mesh** with 478 facial landmarks.
 Rather than looking for "eye shapes" like old Haar Cascade methods, it tracks the exact position of your **iris** within your eye opening — which is why it works reliably even through glasses.
 
 The **iris vertical ratio** tells us where the iris sits between the top and bottom of the eye:
-- `~0.5` → looking straight ahead
-- `< 0.60` → looking down (triggering the detector)
+- `~0.6` → looking straight ahead
+- `< 0.30` → looking down (triggering the detector)
 
 Any mouse movement, click, or keypress resets the 10-second timer, so normal computer use won't get you rickrolled.
 
