@@ -36,7 +36,7 @@ doomscrolling_detector/
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/idaho73/doomscrolling_detector.git
+git clone https://github.com/Idaho73/doomscrolling_detector.git
 cd doomscrolling_detector
 ```
 
